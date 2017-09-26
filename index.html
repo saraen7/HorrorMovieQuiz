@@ -20,23 +20,22 @@
 				<h1>Horror Movie Trivia</h1>
 				<h3>The scary season is upon us! Think you can outrun the menacing monsters and terrifying slayers of 20th century terror?!</h3>
 			</header>
-			<section>
+			<section id="intro">
 				<h2>If you're game, click "Okay" to continue.</h2>
-				<button>Okay</button>
+				<button id="introButton">Okay</button>
 			</section>
-			<section class="hide">
+			<section class="hide" id="theExorcist">
 				<h2>What year was the first horror movie nominated for an Academy Award?</h2>
 				<form action="">
 					<input type="radio" name="year" value="1922">1922</input>
 					<input type="radio" name="year" value="1954">1954</input>
 					<input type="radio" name="year" value="1968">1968</input>
-					<input type="radio" name="year" value="1974">1974</input>
+					<input type="radio" name="year" value="1974" class="correct">1974</input>
 				</select>
-				<p class="correct">That's right!</p>
-				<p class="incorrect">That's wrong!</p>
-				<p>The horror genre has never gotten much love from the Academy. Though there still seems to be a bias against scary movies during awards season, The Exorcist earned 10 Oscar nominations in 1974, including a Best Supporting Actress nod for Linda Blair, who was just 15 years old at the time.</p>
+				<p></p>
+				<button id="theExorcistButton" class="hidden">Next</button>
 			</section>
-			<section>
+			<section class="hide" id="psycho">
 				<h2>Which iconic film is the first American film to feature a toilet?</h2>
 				<form action="">
 					<input type="radio" name="film" value="Psycho">Psycho</input>
@@ -47,8 +46,9 @@
 				<p class="correct">That's right!</p>
 				<p class="incorrect">That's wrong!</p>
 				<p><i>Psycho</i> is the first American film to show a toilet on screen. It's also the first American film in which we hear a toilet being flushed.</p>
+				<button id="psychoButton">Next</button>
 			</section>
-			<section>
+			<section class="hide" id="jaws">
 				<h2>How long into the film does it take for the shark to appear in <i>Jaws</i>?</h2>
 				<form action="">
 					<input type="radio" name="time" value="32min">32 minutes</input>
@@ -59,6 +59,7 @@
 				<p class="correct">That's right!</p>
 				<p class="incorrect">That's wrong!</p>
 				<p>While the lack of shark appearances until 1 hour and 21 minutes in works to heighten the tension in <i>Jaws</i>, the real reason the shark isn’t shown in full is because the mechanical shark that was built rarely worked during filming. Director Steven Spielberg had to create inventive ways (like Quint’s yellow barrels) to shoot around the non-functional movie shark. </p>
+				<button id="jawsButton">Next</button>
 			</section>
 			<footer>
 				&copy; Sara Norlin's Horror Facts
