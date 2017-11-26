@@ -3,7 +3,7 @@ This was my first quiz.
 
 **Link to project:** https://saraen7.github.io/HorrorMovieQuiz/
 
-![Alt text](screenshot.jpg?raw=true "Horror Movie Quiz Screenshot")
+![Alt text](/screenshot.jpg?raw=true "Horror Movie Quiz Screenshot")
 
 ## How It's Made:
 
